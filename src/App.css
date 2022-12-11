@@ -1,3 +1,34 @@
 .App {
   text-align: center;
+  
+}
+
+.heading {
+  font-size: 2.5em;
+  margin: -5px;
+}
+
+p#sub-heading {
+  font-size: 1.25em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(30deg, purple, cyan);
+}
+.avatar {
+  align-self: center;
+  margin: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.bio {
+  text-align: left;
 }
