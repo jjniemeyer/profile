@@ -11,9 +11,8 @@ const avatar = require("./static/images/avatar/jjn.jpeg")
 function App() {
   return (
     <div className="App">
-      <Box className="box" sx={{borderBottom: 1, borderColor: 'divider'}}>
-        <p></p>
-        <Avatar className='avatar' alt='Jasper Niemeyer' src={avatar} sx={{width: '180px', height: 'auto'}}/>
+      <Box className="box" sx={{borderTop: 0, borderBottom: 1, borderColor: 'divider'}}>
+        <Avatar className='avatar' alt='Jasper Niemeyer' src={avatar} sx={{width: '120px', height: 'auto'}}/>
         <div className='header'>
           <p className='heading'>Jasper Niemeyer</p>
           <p id='sub-heading'><em>Software Engineer</em></p>
@@ -38,13 +37,67 @@ function App() {
           <Button variant="contained">Bio</Button>
         </div>        
       </Box>
+      
       <div className='bio'>
-      <p>
+      
+        <section className='bio-text'>
+          <h1>title</h1>
         Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
 React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
 history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer. Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer. Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer. Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer. Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer. Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
+to the table. Eager to build on prior experience and thrive as a full stack developer.Primarily Backend Engineer with project experience in Python, MVC, Javascript, Typescript
+React, and SQL. Educated in Applied Mathematics with a Computer Science minor and a work
+history in customer service bringing strong analytical, communication and problem solving skills
 to the table. Eager to build on prior experience and thrive as a full stack developer.
-      </p>
+        </section>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
-  
+  text-align: center; 
 }
+
 
 .heading {
   font-size: 2.5em;
@@ -27,7 +27,14 @@ p#sub-heading {
 }
 
 .box {
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
   display: flex;
+  position: sticky;
+  width: 100vw;
+  height: auto;
+  top: 0;
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(30deg, purple, cyan);
@@ -40,9 +47,12 @@ p#sub-heading {
 .nav {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 10px;
+  
 }
 
 .bio {
+  padding-left: 1.25em;
+  padding-right: 1em;
   text-align: left;
 }
+

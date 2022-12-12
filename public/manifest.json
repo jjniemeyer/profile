@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Profile App",
+  "name": "Profile: Jasper Niemeyer",
   "icons": [
     {
       "src": "favicon.ico",
