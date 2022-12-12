@@ -41,6 +41,7 @@ p#sub-heading {
 }
 .avatar {
   align-self: center;
+  justify-content: center;
   margin: 5px;
 }
 
