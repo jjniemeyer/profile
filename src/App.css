@@ -4,12 +4,13 @@
 
 
 .heading {
-  font-size: 2.5em;
+  font-size: 2em;
   margin: -5px;
 }
 
 p#sub-heading {
-  font-size: 1.25em;
+  font-size: 1em;
+  margin: 0;
 }
 
 #header-icons {
@@ -42,7 +43,7 @@ p#sub-heading {
 .avatar {
   align-self: center;
   justify-content: center;
-  margin: 5px;
+  margin: 0;
 }
 
 .nav {
@@ -57,3 +58,11 @@ p#sub-heading {
   text-align: left;
 }
 
+dt {
+  font-weight: bold;
+  margin: 5px;
+}
+
+dd {
+  font-style: italic;
+}

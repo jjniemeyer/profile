@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Box className="box" sx={{borderTop: 0, borderBottom: 1, borderColor: 'divider'}}>
-        <Avatar className='avatar' alt='Jasper Niemeyer' src={avatar} sx={{width: '120px', height: 'auto'}}/>
+        <Avatar className='avatar' alt='Jasper Niemeyer' src={avatar} sx={{width: '90px', height: 'auto'}}/>
         <Header />
         <Navbar />       
       </Box>
