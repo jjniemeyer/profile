@@ -1,34 +1,23 @@
 export default function Bio() {
   return (
     <section className='bio' style={{display: 'block'}}>      
-          <h1>title</h1>
-          <p>There are ways to fix a broken sound. </p>
-          <ul>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-            <li>a</li>
-            <li>long</li>
-            <li>list</li>
-          </ul>
+          <h1>Bio</h1>
+          <p>
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          Some words about me and my goals as well as info about how to get in touch. 
+          </p>
+          
       </section>
   );
 }
