@@ -2,6 +2,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import EmailIcon from '@mui/icons-material/Email'
 import Link from '@mui/material/Link'
+import Tooltip from '@mui/material/Tooltip'
 
 
 function Header() {
@@ -16,10 +17,11 @@ function Header() {
             <Link color="inherit" target="_blank" href="https://github.com/jjniemeyer">
               <GitHubIcon>GitHub profile</GitHubIcon>
             </Link>
-            <Link color="inherit" href="mailto:jasper.j.niemeyer@gmail.com">
-              <EmailIcon className='email'>send email to jasper.j.niemeyer@gmail.com</EmailIcon>
-              <div className='hidden'>Right click to copy email address</div>
-            </Link> 
+            <Tooltip title="right click to copy email address">
+              <Link color="inherit" href="mailto:jasper.j.niemeyer@gmail.com">
+                <EmailIcon className='email'>send email to jasper.j.niemeyer@gmail.com</EmailIcon>
+              </Link> 
+            </Tooltip>
           </div>
         </div>
   );

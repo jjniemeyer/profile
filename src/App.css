@@ -18,14 +18,7 @@ p#sub-heading {
   padding: 10px;
 }
 
-.hidden {
-  display: none;
-  margin: 5px;
-}
 
-.email:hover + .hidden {
-  display: block;
-}
 
 .box {
   padding: 10px;
