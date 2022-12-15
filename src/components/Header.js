@@ -17,7 +17,7 @@ function Header() {
             <Link color="inherit" target="_blank" href="https://github.com/jjniemeyer">
               <GitHubIcon>GitHub profile</GitHubIcon>
             </Link>
-            <Tooltip title="right click to copy email address">
+            <Tooltip title="right click to copy email address" arrow>
               <Link color="inherit" href="mailto:jasper.j.niemeyer@gmail.com">
                 <EmailIcon className='email'>send email to jasper.j.niemeyer@gmail.com</EmailIcon>
               </Link> 
